@@ -4,11 +4,12 @@ import os
 
 import pprint
 
-def add_two_things_together(
-        x: int, y: int) -> int:
-    z = 1 # An unused variable
-    return x +    y
+def  a_weird_function(
+    x: list[int]) ->int:
+            y = x[0]
+            z = x[2]
+            a = 1 # an unused variable
+            return 2    * (y + z    )
 
-if __name__ == "__main__":
-    pprint.pprint(add_two_things_together(1, 2))
-    os.environ["key"] = "value"
+pprint.pprint(a_weird_function(1, 2, 3))
+os.environ["key"] = 'value'

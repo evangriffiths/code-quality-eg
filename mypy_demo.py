@@ -1,6 +1,7 @@
-def add_two_things_together(x, y):
-    return x + y
+def a_weird_function(x: list[int]) -> int:
+    y = x[0]
+    z = x[2]
+    return 2 * (y + z)
 
-
-if __name__ == "__main__":
-    print(add_two_things_together(1, 2))
+z = a_weird_function([1, 2, 3])
+print(z)
