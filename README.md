@@ -27,7 +27,7 @@ pip install mypy black autoflake isort
 ## Run the tools
 
 ```bash
-mypy .
+python -m mypy .
 
 python -m black .
 python -m autoflake --in-place --remove-all-unused-imports --remove-unused-variables --recursive .
