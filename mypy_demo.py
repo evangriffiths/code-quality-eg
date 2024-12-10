@@ -1,4 +1,4 @@
-def a_weird_function(x: list[int]) -> int:
+def a_weird_function(x):
     y = x[0]
     z = x[2]
     return 2 * (y + z)
