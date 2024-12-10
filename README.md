@@ -36,6 +36,14 @@ python -m isort --profile black .
 
 ## Pre-commit
 
+Pre-commit is a tool that integrates with git to run some user-defined hooks when when you call `git commit`.
+
+Install pre-commit:
+
+```bash
+pip install pre-commit
+```
+
 You have 3 options for integrating this with your development environment:
 
 1. Run `pre-commit install`. Now every time you run `git commit ...` it runs the pre-commit hooks and changes the files for you to-recommit.
