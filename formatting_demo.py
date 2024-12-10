@@ -11,5 +11,5 @@ def  a_weird_function(
             a = 1 # an unused variable
             return 2    * (y + z    )
 
-pprint.pprint(a_weird_function(1, 2, 3))
+pprint.pprint(a_weird_function([1, 2, 3]))
 os.environ["key"] = 'value'

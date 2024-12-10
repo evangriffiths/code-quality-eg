@@ -3,5 +3,6 @@ def a_weird_function(x: list[int]) -> int:
     z = x[2]
     return 2 * (y + z)
 
+
 z = a_weird_function([1, 2, 3])
 print(z)
